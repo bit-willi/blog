@@ -22,16 +22,14 @@ TF-IDF combines two metrics:
 The formula for TF-IDF is:
 
 $$
-\[
-\text{TF-IDF}(t, d) = \text{TF}(t, d) \times \text{IDF}(t)
-\]
+\mathrm{tfidf}(t,d,D) = \mathrm{tf}(t,d) \cdot \mathrm{idf}(t, D)
 $$
 
 Where:
-- $$ \(t\) $$ is the term
-- $$ \(d\) $$ is the document
-- $$ \(TF(t, d)\) $$ is the term frequency of $$ \(t\) $$ in $$ \(d\) $$
-- $$ \(IDF(t)\) $$ is the inverse document frequency of $$ \(t\) $$
+- $$ t $$ is the term
+- $$ d $$ is the document
+- $$ TF(t, d) $$ is the term frequency of $$ t $$ in $$ d $$
+- $$ IDF(t) $$ is the inverse document frequency of $$ t $$
 
 For more details, visit the [Wikipedia page on TF-IDF](https://en.wikipedia.org/wiki/Tf–idf).
 
